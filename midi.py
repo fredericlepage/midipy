@@ -7,7 +7,7 @@ class color:
    UNDERLINE = '\033[4m'
    END = '\033[0m'
 
-DEVICE = "CASIO USB-MIDI:CASIO USB-MIDI MIDI 1 20:0"
+DEVICE = ""          # Default midi device
 
 track_list = {}      # Dictionary containing {track_name : recorded midi log}
 
